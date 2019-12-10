@@ -23,7 +23,7 @@ describe './lib/tic_tac_toe.rb' do
         game.play
       end
 
-      it 'plays the first turn of the game' do
+      it 'plays the first turn oƒf the game' do
         game = TicTacToe.new
         allow($stdout).to receive(:puts)
         allow(game).to receive(:gets).and_return("1")
